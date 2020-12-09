@@ -1,0 +1,83 @@
+:root {
+  --footer: #ef4444;
+  --header: #f59e0b;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: auto;
+}
+
+.hero {
+  background-color: var(--header);
+  padding: 1rem;
+  margin: auto;
+}
+
+.hero-header {
+  font-weight: bold;
+}
+
+label {
+  padding: 1rem;
+  margin: auto;
+}
+
+select {
+  width: 34%;
+  padding: 0.5rem;
+  margin: auto;
+}
+
+.input {
+  width: 80%;
+  padding: 1rem;
+  margin: auto;
+}
+
+.output {
+  padding: 1rem;
+  margin: 2rem auto;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.container-center {
+  display: block;
+  max-width: 650px;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+
+.footer {
+  background-color: var(--footer);
+  padding: 2rem 1rem;
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer p {
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: auto;
+}
+
+.footer-header {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+}
