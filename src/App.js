@@ -122,7 +122,6 @@ export default function App() {
             </li>
           ))}
         </ul>
-        <div className="container-center"></div>
 
         <footer className="footer">
           <div className="footer-header">About</div>
