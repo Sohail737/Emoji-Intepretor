@@ -127,7 +127,7 @@ export default function App() {
           <div className="footer-header">About</div>
           <p>
             Do you often get confused between emojis? Don't wory, get meanings
-            of tons of emojis from different categories from outr database
+            of tons of emojis from different categories from our database
           </p>
         </footer>
       </body>
