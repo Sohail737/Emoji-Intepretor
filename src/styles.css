@@ -59,7 +59,7 @@ select {
   background-color: var(--footer);
   padding: 2rem 1rem;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 @media only screen and (max-width: 430px) {
@@ -67,7 +67,7 @@ select {
     background-color: var(--footer);
     padding: 2rem 1rem;
     margin: auto;
-    margin-top: 12rem;
+    margin-top: 13rem;
   }
 }
 .footer p {
