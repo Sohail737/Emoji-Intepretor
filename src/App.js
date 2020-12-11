@@ -4,7 +4,7 @@ import "./styles.css";
 const title = "Emojipretor";
 
 const smileyDictionary = {
-  "😀": "Grinning Face",
+  "😀": "Smiling Face",
   "😉": "Winking Face",
   "😁": "Beaming Face with Smiling Eyes",
   "🙂": "Slightly Smiling Face",
@@ -112,6 +112,7 @@ export default function App() {
         <div className="output" id="output-txt" style={{ padding: "1rem" }}>
           {emojiMeaning}
         </div>
+        
         <ul className="list-non-bullet">
           {emojiList.map((emoji) => (
             <li
