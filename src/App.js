@@ -10,7 +10,9 @@ const smileyDictionary = {
   "🙂": "Slightly Smiling Face",
   "😍": "Smiling Face with Heart-Eyes",
   "😘": "Face Blowing a Kiss",
-  "😝": "Squinting Face with Tongue"
+  "😝": "Squinting Face with Tongue",
+  "🙃":"Upside-Down Face",
+  "😂":"Face with Tears of Joy"
 };
 const animalDictionary = {
   "🦍": "Gorilla",
