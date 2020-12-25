@@ -37,7 +37,7 @@ export default function App() {
   const [inputCategory, setInputCategory] = useState("smileys");
 
   function changeCategory(event) {
-    setCategory(event);
+    setInputCategory(event.target.value);
     resetAll();
     setEmojiList(event);
   }
@@ -48,10 +48,6 @@ export default function App() {
     } else if (event.target.value === "animals") {
       emojiList = Object.keys(animalDictionary);
     }
-  }
-
-  function setCategory(event) {
-    setInputCategory(event.target.value);
   }
 
   function resetAll() {
@@ -111,7 +107,7 @@ export default function App() {
           id="input-txt"
           onChange={emojiHandler}
         ></input>
-        <div className="output" id="output-txt" style={{ padding: "1rem" }}>
+        <div className="output" id="output-txt">
           {emojiMeaning}
         </div>
         
@@ -130,7 +126,7 @@ export default function App() {
           <div className="footer-header">About</div>
           <p>
             Do you often get confused between emojis? Don't wory, get meanings
-            of tons of emojis from different categories from our database
+            of tons of emojis from different categories in our database
           </p>
         </footer>
       </body>
